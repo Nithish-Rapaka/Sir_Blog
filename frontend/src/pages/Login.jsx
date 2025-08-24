@@ -8,8 +8,8 @@ const Login = () => {
   const navigate = useNavigate()
 
   // Static credentials
-  const staticEmail = "admin@example.com"
-  const staticPassword = "12345";
+  const staticEmail = "admin@example.com";
+  const staticPassword = 12345;
 
   const handleLogin = () => {
     if (email === staticEmail && password === staticPassword) {

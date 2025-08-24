@@ -9,7 +9,7 @@ const Login = () => {
 
   // Static credentials
   const staticEmail = "admin@example.com"
-  const staticPassword = 12345;
+  const staticPassword = "12345";
 
   const handleLogin = () => {
     if (email === staticEmail && password === staticPassword) {

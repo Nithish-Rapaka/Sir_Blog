@@ -18,7 +18,7 @@ const NavBar = () => {
   };
 
   return (
-    <div className="bg-blue-500">
+    <div className="bg-white shadow-md fixed w-full top-0 left-0">
     <header className="text-gray-600 body-font">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <Link to='/Content' className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">

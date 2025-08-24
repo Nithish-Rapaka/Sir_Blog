@@ -8,12 +8,11 @@ const Login = () => {
   const navigate = useNavigate()
 
   // Static credentials
-  const staticEmail = "238t1a1293"
-  const staticEmail2 = "238t1a12a0"
-  const staticPassword = "DIET@2327"
+  const staticEmail = "admin@example.com"
+  const staticPassword = 12345;
 
   const handleLogin = () => {
-    if (email === staticEmail || staticEmail2 && password === staticPassword) {
+    if (email === staticEmail && password === staticPassword) {
       // Save login state
       localStorage.setItem("isLoggedIn", "true")
       navigate("/AdminDashboard")

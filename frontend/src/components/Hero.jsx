@@ -13,8 +13,8 @@ const Hero = () => {
             
             {/* Heading */}
             <h1 className="text-5xl sm:text-6xl font-bold leading-tight mb-6 tracking-tight font-serif">
-              Especially Designed for IT Minds
-            </h1>
+              
+            </h1>Drmalleswararao's Blog
             
             <p className="mb-8 text-lg leading-relaxed text-gray-600 max-w-xl font-light">
               The journey of a student is filled with challenges and triumphs. 

@@ -10,7 +10,7 @@ const AdminLabs = () => {
   const [newLabel, setNewLabel] = useState("");
   const [newText, setNewText] = useState("");
 
-  const API_BASE = "http://localhost:5000/subjects"; // Backend base URL
+  const API_BASE = "https://sir-blog-backend.onrender.com/subjects"; // Backend base URL
 
   const subjectLogos = {
     Java: <FaJava className="text-red-600 text-2xl" />,

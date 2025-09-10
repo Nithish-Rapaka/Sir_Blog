@@ -6,7 +6,7 @@ const Labs = () => {
 
   useEffect(() => {
     // Fetch labs from backend
-    fetch("http://localhost:5000/subjects/labs") // Replace with your backend URL
+    fetch("https://sir-blog-backend.onrender.com/subjects/labs") // Replace with your backend URL
       .then((res) => res.json())
       .then((data) => {
         const formatted = {};

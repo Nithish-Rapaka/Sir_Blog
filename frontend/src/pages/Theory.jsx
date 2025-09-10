@@ -5,7 +5,7 @@ const Theory = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("http://localhost:5000/subjects/theory")
+    fetch("https://sir-blog-backend.onrender.com/subjects/theory")
       .then((res) => res.json())
       .then((data) => {
         const formatted = {};
